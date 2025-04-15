@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Yashwanth</title>
+		<script language=javascript>
+			function change(col){
+				switch(col){
+					case 'red':document.bgColor="red";
+						break;
+					case 'green':document.bgColor="green";
+						break;
+					case 'blue':document.bgColor="blue";
+						break;
+					case 'yellow':document.bgColor="yellow";
+						break;
+					case 'purple':document.bgColor="purple";
+						break;
+					case 'violet':document.bgColor="violet";
+						break;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1><input type="radio" name="c" onClick="change('red')">RED<br>
+		<input type="radio" name="c" onClick="change('green')">GREEN<br>
+		<input type="radio" name="c" onClick="change('blue')">BLUE<br>
+		<input type="radio" name="c" onClick="change('yellow')">YELLOW<br>
+		<input type="radio" name="c" onClick="change('purple')">PURPLE<br>
+		<input type="radio" name="c" onClick="change('violet')">VIOLET<br></h1>
+	</body>
+</html>
